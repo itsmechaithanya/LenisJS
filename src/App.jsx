@@ -56,12 +56,12 @@ function App() {
 
   return (
     <>
-      <div className="w-full bg-black">
+      <div className="w-full bg-black pt-[5vh]">
         <div className='grid lg:grid-cols-5 lg:grid-rows-10 lg:gap-2'>
           <div className='elem' style={{ '--r': 7, '--c': 3 }}><img src="/img1.jpg" alt="img1" /></div>
           <div className='elem' style={{ '--r': 2, '--c': 1 }}><img src="/img2.jpg" alt="img2" /></div>
           <div className='elem' style={{ '--r': 3, '--c': 5 }}><img src="/img3.jpg" alt="img3" /></div>
-          <div className='elem' style={{ '--r': 9, '--c': 2 }}><img src="/img4.jpg" alt="img4" /></div>
+          <div className='elem' style={{ '--r': 9, '--c': 2  }}><img src="/img4.jpg" alt="img4" /></div>
           <div className='elem' style={{ '--r': 5, '--c': 4 }}><img src="/img5.jpg" alt="img5" /></div>
           <div className='elem' style={{ '--r': 1, '--c': 2 }}><img src="/img6.jpg" alt="img6" /></div>
           <div className='elem' style={{ '--r': 3, '--c': 1 }}><img src="/img7.jpg" alt="img7" /></div>
@@ -80,11 +80,11 @@ function App() {
           <div className='elem' style={{ '--r': 4, '--c': 2 }}><img src="/img20.jpg" alt="img20" /></div>
         </div>
         <div className='h-screen w-screen fixed top-0 left-0 flex flex-col items-center justify-center text-white'>
-          <h1 className='text-8xl mb-1 font-bold uppercase'>Thomas Vance <sup className='font-light'>®</sup></h1>
-          <h2 className='text-4xl '>並外れたファッション</h2>
+          <h1 className='lg:text-8xl text-4xl mb-1 font-bold uppercase'>Thomas Vance <sup className='font-light'>®</sup></h1>
+          <h2 className='lg:text-4xl '>並外れたファッション</h2>
         </div>
-        <div className=' w-screen h-screen flex relative z-[99] bg-[#d1d1d1] items-center justify-center text-white'>
-          <p className=' text-5xl w-3/4 text-black leading-[4.5vw] font-medium'>From the dawn of civilisation onwards crowds have always undergone the influence of illusions. It is to the creators of illusions that they have raised more temples, statues, and altars than to any other class of men. Whether it be the religious illusions of the past or the philosophical and social illusions of the present, these formidable sovereign powers have always been the masters of destiny. <sup>®</sup></p>
+        <div className=' w-screen h-screen mt-[10vh] flex relative z-[99] bg-[#d1d1d1] items-center justify-center text-white'>
+          <p className=' lg:text-5xl text-2xl w-3/4 text-black lg:leading-[4.5vw] font-medium'>From the dawn of civilisation onwards crowds have always undergone the influence of illusions. It is to the creators of illusions that they have raised more temples, statues, and altars than to any other class of men. Whether it be the religious illusions of the past or the philosophical and social illusions of the present, these formidable sovereign powers have always been the masters of destiny. <sup>®</sup></p>
         </div>
       </div>
     </>
