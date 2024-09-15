@@ -56,7 +56,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full bg-black pt-[5vh]">
+      <div className="w-screen bg-black pt-[5vh] overflow-hidden">
         <div className='grid lg:grid-cols-5 lg:grid-rows-10 lg:gap-2'>
           <div className='elem' style={{ '--r': 7, '--c': 3 }}><img src="/img1.jpg" alt="img1" /></div>
           <div className='elem' style={{ '--r': 2, '--c': 1 }}><img src="/img2.jpg" alt="img2" /></div>
