@@ -21,7 +21,7 @@ function App() {
 
   useGSAP(()=>{
     document.querySelectorAll(".elem").forEach(elem => {
-      let img = elem.querySelector("img")
+      let img = elem.querySelector("img") 
       let tl = gsap.timeline()
   
       let xTransform = gsap.utils.random(-100,100);
