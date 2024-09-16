@@ -42,7 +42,7 @@ function App() {
           }
         }, "start")
         .to(img, {
-          xPercent: xTransform,
+          xPercent: xTransform, 
           ease: "power4.easeInOut",
           scrollTrigger: {
             trigger:img,
